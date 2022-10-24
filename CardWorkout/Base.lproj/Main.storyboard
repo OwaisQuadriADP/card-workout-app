@@ -15,18 +15,86 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10S" translatesAutoresizingMaskIntoConstraints="NO" id="brr-Kf-yDh">
+                                <rect key="frame" x="82" y="173" width="250" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="PHB-ca-ziK"/>
+                                    <constraint firstAttribute="width" constant="250" id="v1d-G9-JZt"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyX-Zv-5fi">
+                                <rect key="frame" x="82" y="583" width="250" height="50"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7Jk-FY-ya1"/>
+                                    <constraint firstAttribute="width" constant="250" id="lRm-Qx-0DX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop!">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ1-JT-e8v">
+                                <rect key="frame" x="82" y="653" width="115" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="ems-iY-eQf"/>
+                                    <constraint firstAttribute="height" constant="50" id="tTD-It-jf2"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Restart">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVB-di-Zln">
+                                <rect key="frame" x="217" y="653" width="115" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HVV-XA-jdO"/>
+                                    <constraint firstAttribute="width" constant="115" id="llc-vA-kPp"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Rules">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="brr-Kf-yDh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="5P6-53-o0Z"/>
+                            <constraint firstItem="bVB-di-Zln" firstAttribute="trailing" secondItem="lyX-Zv-5fi" secondAttribute="trailing" id="5fI-P3-5iB"/>
+                            <constraint firstItem="brr-Kf-yDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="64h-0y-zhx"/>
+                            <constraint firstItem="lyX-Zv-5fi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GbY-kV-T9r"/>
+                            <constraint firstItem="bVB-di-Zln" firstAttribute="centerY" secondItem="bQ1-JT-e8v" secondAttribute="centerY" id="coD-H7-2do"/>
+                            <constraint firstItem="lyX-Zv-5fi" firstAttribute="top" secondItem="brr-Kf-yDh" secondAttribute="bottom" constant="60" id="fsY-ut-c2R"/>
+                            <constraint firstItem="bQ1-JT-e8v" firstAttribute="top" secondItem="lyX-Zv-5fi" secondAttribute="bottom" constant="20" id="gj8-oH-QyM"/>
+                            <constraint firstItem="bQ1-JT-e8v" firstAttribute="leading" secondItem="lyX-Zv-5fi" secondAttribute="leading" id="tme-ec-103"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-261" y="108"/>
+            <point key="canvasLocation" x="-262.31884057971018" y="107.8125"/>
         </scene>
     </scenes>
     <resources>
+        <image name="10S" width="691" height="1056"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
