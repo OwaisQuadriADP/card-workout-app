@@ -68,7 +68,6 @@
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b1q-A0-37w"/>
                                     <segue destination="3gg-zc-WvF" kind="presentation" id="4UO-eX-hcC"/>
                                 </connections>
                             </button>
