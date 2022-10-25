@@ -16,6 +16,7 @@
 		217CF6A729072500005A3E02 /* CardWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CF6A629072500005A3E02 /* CardWorkoutUITests.swift */; };
 		217CF6A929072500005A3E02 /* CardWorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CF6A829072500005A3E02 /* CardWorkoutUITestsLaunchTests.swift */; };
 		217CF6B629072531005A3E02 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217CF6B529072531005A3E02 /* CardSelectionVC.swift */; };
+		21C77B4D290838A7007F5978 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C77B4C290838A7007F5978 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		217CF6A629072500005A3E02 /* CardWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITests.swift; sourceTree = "<group>"; };
 		217CF6A829072500005A3E02 /* CardWorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		217CF6B529072531005A3E02 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		21C77B4C290838A7007F5978 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				217CF687290724FE005A3E02 /* SceneDelegate.swift */,
 				217CF68B290724FE005A3E02 /* Main.storyboard */,
 				217CF6B529072531005A3E02 /* CardSelectionVC.swift */,
+				21C77B4C290838A7007F5978 /* Card.swift */,
 				217CF68E29072500005A3E02 /* Assets.xcassets */,
 				217CF69029072500005A3E02 /* LaunchScreen.storyboard */,
 				217CF69329072500005A3E02 /* Info.plist */,
@@ -261,6 +264,7 @@
 				217CF686290724FE005A3E02 /* AppDelegate.swift in Sources */,
 				217CF688290724FE005A3E02 /* SceneDelegate.swift in Sources */,
 				217CF6B629072531005A3E02 /* CardSelectionVC.swift in Sources */,
+				21C77B4D290838A7007F5978 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
